@@ -19,3 +19,27 @@ Input	     =>   Output
 110, 100	 =>   true
 150, 100	 =>   true
 50, 100	   =>   false
+
+
+Answers:
+
+1.
+
+function max(a, b) {
+    if a > b then return a
+    return b
+}
+
+2.
+
+function equal(a, b) {
+    if a == b then return true
+    return false
+}
+
+3.
+
+function isGreater(a, b) {
+    if a > b then return true
+    return false
+}
